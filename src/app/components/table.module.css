@@ -1,0 +1,35 @@
+.tableHeaderCell {
+  background-color: #f1f1f1;
+  padding: 12px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 14;
+  color: #2c3e50;
+}
+
+.tableHeaderCell:first-child {
+  border-top-left-radius: 12px;
+}
+
+.tableHeaderCell:last-child {
+  border-top-right-radius: 12px;
+}
+
+.tableRow:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.tableCell {
+  padding: 12px;
+  font-size: 14px;
+  color: grey;
+  border: 2px solid #f1f1f1;
+  white-space: pre-wrap;
+}
+
+.time {
+  padding: 0 0 20px 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
